@@ -1,0 +1,53 @@
+;Model;device;time (seconds);accuracy;additional description;data type
+0;LRC;cpu;13.196943283081055;0.9714180115806332;TFIDF: 2000, (1, 2)) L-REG: 1000);content
+1;LRC;cpu;13.665311336517334;0.9714180115806332;TFIDF: 2000, (1, 2)) L-REG: 1000);content
+2;LRC;cpu;13.87685513496399;0.9714180115806332;TFIDF: 2000, (1, 2)) L-REG: 1000);content
+3;LRC;cpu;3.4135794639587402;0.9701713299642549;TFIDF: 2000, (1, 2)) L-REG: 1000);content_clean_truc
+4;LRC;cpu;3.385129690170288;0.9701713299642549;TFIDF: 2000, (1, 2)) L-REG: 1000);content_clean_truc
+5;LRC;cpu;3.26884388923645;0.9701713299642549;TFIDF: 2000, (1, 2)) L-REG: 1000);content_clean_truc
+6;SVC;cpu;270.1344702243805;0.9783171122335839;TFIDF: 1000, (1, 2)) SVC: linear, C: 1.0);content
+7;SVC;cpu;270.79731965065;0.9783171122335839;TFIDF: 1000, (1, 2)) SVC: linear, C: 1.0);content
+8;LRC;cpu;13.196943283081055;0.9714180115806332;TFIDF: 2000, (1, 2)) L-REG: 1000);content
+9;LRC;cpu;13.665311336517334;0.9714180115806332;TFIDF: 2000, (1, 2)) L-REG: 1000);content
+10;LRC;cpu;13.87685513496399;0.9714180115806332;TFIDF: 2000, (1, 2)) L-REG: 1000);content
+11;LRC;cpu;3.4135794639587402;0.9701713299642549;TFIDF: 2000, (1, 2)) L-REG: 1000);content_clean_truc
+12;LRC;cpu;3.385129690170288;0.9701713299642549;TFIDF: 2000, (1, 2)) L-REG: 1000);content_clean_truc
+13;LRC;cpu;3.26884388923645;0.9701713299642549;TFIDF: 2000, (1, 2)) L-REG: 1000);content_clean_truc
+14;SVC;cpu;270.1344702243805;0.9783171122335839;TFIDF: 1000, (1, 2)) SVC: linear, C: 1.0);content
+15;SVC;cpu;270.79731965065;0.9783171122335839;TFIDF: 1000, (1, 2)) SVC: linear, C: 1.0);content
+16;NNC;cuda;10.347545862197876;0.9655101621843564;"Layers: Layer 0: Linear - Linear(in_features=1000, out_features=128, bias=True)
+Layer 1: ReLU - ReLU()
+Layer 2: Linear - Linear(in_features=128, out_features=64, bias=True)
+Layer 3: ReLU - ReLU()
+Layer 4: Linear - Linear(in_features=64, out_features=1, bias=True)
+Layer 5: Sigmoid - Sigmoid() epochs: 2";content
+17;NNC;cuda;9.820540189743042;0.9690002052966536;"Layers: Layer 0: Linear - Linear(in_features=1000, out_features=128, bias=True)
+Layer 1: ReLU - ReLU()
+Layer 2: Linear - Linear(in_features=128, out_features=64, bias=True)
+Layer 3: ReLU - ReLU()
+Layer 4: Linear - Linear(in_features=64, out_features=1, bias=True)
+Layer 5: Sigmoid - Sigmoid() epochs: 2";content
+18;NNC;cuda;9.88038420677185;0.9650995688770273;"Layers: Layer 0: Linear - Linear(in_features=1000, out_features=128, bias=True)
+Layer 1: ReLU - ReLU()
+Layer 2: Linear - Linear(in_features=128, out_features=64, bias=True)
+Layer 3: ReLU - ReLU()
+Layer 4: Linear - Linear(in_features=64, out_features=1, bias=True)
+Layer 5: Sigmoid - Sigmoid() epochs: 2";content
+19;NNC;cuda;9.797064304351807;0.9718628055042103;"Layers: Layer 0: Linear - Linear(in_features=200, out_features=128, bias=True)
+Layer 1: ReLU - ReLU()
+Layer 2: Linear - Linear(in_features=128, out_features=64, bias=True)
+Layer 3: ReLU - ReLU()
+Layer 4: Linear - Linear(in_features=64, out_features=1, bias=True)
+Layer 5: Sigmoid - Sigmoid() epochs: 2";content_clean_truc
+20;NNC;cuda;9.766802072525024;0.973505853357979;"Layers: Layer 0: Linear - Linear(in_features=200, out_features=128, bias=True)
+Layer 1: ReLU - ReLU()
+Layer 2: Linear - Linear(in_features=128, out_features=64, bias=True)
+Layer 3: ReLU - ReLU()
+Layer 4: Linear - Linear(in_features=64, out_features=1, bias=True)
+Layer 5: Sigmoid - Sigmoid() epochs: 2";content_clean_truc
+21;NNC;cuda;9.760131597518921;0.9716574245224893;"Layers: Layer 0: Linear - Linear(in_features=200, out_features=128, bias=True)
+Layer 1: ReLU - ReLU()
+Layer 2: Linear - Linear(in_features=128, out_features=64, bias=True)
+Layer 3: ReLU - ReLU()
+Layer 4: Linear - Linear(in_features=64, out_features=1, bias=True)
+Layer 5: Sigmoid - Sigmoid() epochs: 2";content_clean_truc
